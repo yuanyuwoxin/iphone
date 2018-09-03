@@ -56,12 +56,15 @@
         height: .2rem;
     }
 .wrapper{
+	overflow: hidden;
+	height: 0;
+	padding-bottom: 40%;
 	.box{
-
 		line-height: 4rem;
 		.banner{
 			text-align: center;
 			background-color: #dedede;
+			float: left;
 		}
 		.swiper-pagination{
 			height: 2.2rem;
